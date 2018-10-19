@@ -10,4 +10,9 @@ class PersonTest < Minitest::Test
     assert_instance_of  Person, charlie
   end
 
+  def test_it_has_a_name
+    charlie = Person.new({"name" => "Charlie", "age" => 18})
+    assert_equal "Charlie", charlie.name
+  end
+
 end
