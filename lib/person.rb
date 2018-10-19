@@ -4,7 +4,7 @@ class Person
               :age
 
   def initialize(hash)
-    hash = {"name" => name, "age" => age}
+    # hash = {"name" => name, "age" => age}
     @name = name
     @age = age
   end
