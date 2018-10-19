@@ -15,13 +15,11 @@ class PersonTest < Minitest::Test
   end
 
   def test_it_has_a_age
-skip
     charlie = Person.new({"name" => "Charlie", "age" => 18})
     assert_equal 18, charlie.age
   end
 
   def test_it_is_an_adult
-skip
     charlie = Person.new({"name" => "Charlie", "age" => 18})
     assert_equal true, charlie.adult?
   end

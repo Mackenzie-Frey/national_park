@@ -16,7 +16,6 @@ class CarTest < Minitest::Test
   end
 
   def test_it_can_add_passengers
-  skip
     car = Car.new
     charlie = Person.new({"name" => "Charlie", "age" => 18})
     jude = Person.new({"name" => "Jude", "age" => 20})
@@ -28,7 +27,6 @@ class CarTest < Minitest::Test
   end
 
   def test_it_knows_the_number_of_adults
-  skip
     car = Car.new
     charlie = Person.new({"name" => "Charlie", "age" => 18})
     jude = Person.new({"name" => "Jude", "age" => 20})
