@@ -1,10 +1,12 @@
 class Person
 
-  attr_reader :name
+  attr_reader :name,
+              :age
 
   def initialize(hash)
-    hash = {}
+    hash = {"name" => name, "age" => age}
     @name = name
+    @age = age
   end
 
 end
